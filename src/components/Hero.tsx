@@ -1,5 +1,6 @@
-import { Mail, Phone, Linkedin, MapPin, Github, User } from "lucide-react";
+import { Mail, Phone, Linkedin, MapPin, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 const Hero = () => {
   return (
@@ -12,10 +13,14 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Profile Picture Placeholder */}
+          {/* Profile Picture */}
           <div className="mb-8 flex justify-center">
-            <div className="w-40 h-40 rounded-full bg-gradient-to-br from-primary/20 to-primary/5 border-4 border-primary/30 flex items-center justify-center shadow-xl">
-              <User className="w-20 h-20 text-primary/50" />
+            <div className="w-40 h-40 rounded-full border-4 border-primary/30 shadow-xl overflow-hidden">
+              <img 
+                src={profilePhoto} 
+                alt="Pradip Mondal" 
+                className="w-full h-full object-cover object-top"
+              />
             </div>
           </div>
 

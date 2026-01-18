@@ -4,6 +4,17 @@ import { Folder, ExternalLink } from "lucide-react";
 
 const projects = [
   {
+    title: "Holley Car Parts (Orion Innovations)",
+    description: "Enhanced and maintained core features of the high-traffic car parts reselling e-commerce platform, holley.com.",
+    highlights: [
+      "Optimized e-commerce performance using PHP, MySQL, and JavaScript",
+      "Resolved critical production bugs and applied performance optimizations",
+      "Managed cloud infrastructure using Docker and AWS (EC2, S3, RDS, Redis)",
+      "Owned end-to-end backend modules from design to production"
+    ],
+    technologies: ["PHP", "MySQL", "Docker", "AWS", "Redis", "JavaScript"]
+  },
+  {
     title: "Client Connect (Billtrust Inc.)",
     description: "Designed and implemented automated accounts receivable solutions, helping businesses streamline invoicing and payment processes.",
     highlights: [
